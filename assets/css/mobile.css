@@ -16,7 +16,18 @@
     .site-logo {
         max-width: 30%;
     }
+    .ui.menu {
+        font-size: 1.1rem;
+    }
 
+    .site-description {
+      font-size: 1.3rem;
+    }
+
+
+    .ui.secondary.menu.inverted {
+      font-size: 1.1rem;
+    }
     main {
         max-width: 95%;
     }

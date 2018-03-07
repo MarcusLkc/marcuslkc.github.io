@@ -31,4 +31,19 @@
     main {
         max-width: 95%;
     }
+
+    .container > div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto-fit;
+        grid-gap: 0px;
+    }
+    p {
+        font-size: 110%;
+      }
 }

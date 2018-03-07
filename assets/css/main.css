@@ -177,7 +177,17 @@ code {
     padding-bottom: 5px;
 
 }
-
+.imageclass {
+border: 2px;
+padding: 2px;
+float: right;
+ display: block;
+}
+.textclass {
+text-align: left;
+font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+font-size: 120%;
+}
 h3 > span {
     background-color: gold;
 }

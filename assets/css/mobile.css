@@ -40,10 +40,16 @@
     .container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto-fit;
+        grid-template-rows: 1fr .5fr 1fr .5fr 1fr .5fr;
         grid-gap: 0px;
+        
     }
     p {
         font-size: 110%;
       }
+    .container > div > a > img {
+        border: 5px;
+        border-color: dimgray;
+    }
+    
 }

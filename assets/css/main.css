@@ -120,6 +120,20 @@ main {
   font-family: "Open Sans", sans-serif;
 }
 
+.blog-post-container {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  /* font-size: 1.235rem; */
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -0.003em;
+}
+
 p {
   font-size: 120%;
 }

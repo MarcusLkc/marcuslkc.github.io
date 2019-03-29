@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: Creating your Own Python Command Line Scripts
 tags: [python commandline cli tutorial]
 author: Marcus Crowder

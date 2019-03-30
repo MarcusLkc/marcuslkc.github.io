@@ -153,6 +153,7 @@ p {
 code {
   display: block;
 }
+
 code {
   background: #f8f8f8;
   font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco,
@@ -162,8 +163,37 @@ code {
   border: 1px solid #cccccc;
   padding: 10px;
   word-break: break-all;
+  align-content: left;
 }
 
+/*
+pre {
+  background-color: #d1d1d0;
+  overflow: auto;
+  font-family: "Monaco", monospace;
+  padding: 0 1em;
+}
+
+code {
+  font-family: Monaco, monospace;
+  font-size: 12px;
+  line-height: 100%;
+  background-color: #eee;
+  padding: 0.2em;
+  letter-spacing: -0.05em;
+  word-break: normal;
+  border-radius: 5px;
+}
+
+pre code {
+  border: none;
+  background: none;
+  font-size: 12px;
+  line-height: 1em;
+  letter-spacing: normal;
+  word-break: break-all;
+}
+*/
 .about {
   display: block;
   width: auto;
@@ -205,4 +235,10 @@ code {
 }
 h3 > span {
   background-color: gold;
+}
+
+figure {
+  margin: 0px;
+  padding: 0;
+  overflow: auto;
 }
